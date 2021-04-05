@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  RAWCaptureSampler
 //
-//  Created by N. M on 2021/04/05.
+//  Created by NAOYA MAEDA on 2021/04/05.
 //
 
 import UIKit

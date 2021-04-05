@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DEB047FA261B502C006D2A00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB047F9261B502C006D2A00 /* AppDelegate.swift */; };
 		DEB047FC261B502C006D2A00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB047FB261B502C006D2A00 /* SceneDelegate.swift */; };
-		DEB047FE261B502C006D2A00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB047FD261B502C006D2A00 /* ViewController.swift */; };
+		DEB047FE261B502C006D2A00 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB047FD261B502C006D2A00 /* CameraViewController.swift */; };
 		DEB04801261B502C006D2A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB047FF261B502C006D2A00 /* Main.storyboard */; };
 		DEB04803261B502D006D2A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB04802261B502D006D2A00 /* Assets.xcassets */; };
 		DEB04806261B502D006D2A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB04804261B502D006D2A00 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		DEB047F6261B502C006D2A00 /* RAWCaptureSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAWCaptureSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB047F9261B502C006D2A00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEB047FB261B502C006D2A00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DEB047FD261B502C006D2A00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEB047FD261B502C006D2A00 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		DEB04800261B502C006D2A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEB04802261B502D006D2A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB04805261B502D006D2A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				DEB047F9261B502C006D2A00 /* AppDelegate.swift */,
 				DEB047FB261B502C006D2A00 /* SceneDelegate.swift */,
-				DEB047FD261B502C006D2A00 /* ViewController.swift */,
+				DEB047FD261B502C006D2A00 /* CameraViewController.swift */,
 				DEB047FF261B502C006D2A00 /* Main.storyboard */,
 				DEB04802261B502D006D2A00 /* Assets.xcassets */,
 				DEB04804261B502D006D2A00 /* LaunchScreen.storyboard */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEB047FE261B502C006D2A00 /* ViewController.swift in Sources */,
+				DEB047FE261B502C006D2A00 /* CameraViewController.swift in Sources */,
 				DEB047FA261B502C006D2A00 /* AppDelegate.swift in Sources */,
 				DEB047FC261B502C006D2A00 /* SceneDelegate.swift in Sources */,
 			);
@@ -439,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XX5J8N9TWW;
 				INFOPLIST_FILE = RAWCaptureSampler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.idea.box.RAWCaptureSampler.RAWCaptureSampler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XX5J8N9TWW;
 				INFOPLIST_FILE = RAWCaptureSampler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.idea.box.RAWCaptureSampler.RAWCaptureSampler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
