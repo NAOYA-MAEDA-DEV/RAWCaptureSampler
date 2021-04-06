@@ -2,8 +2,8 @@
 
 Sample Code for capturing RAW or Apple ProRAW.
 
-# Ver.
-|       |  Ver.  |
+# Ver.1.0
+|  Ver. |  1.0  |
 |:------|-------:|
 | Xcode |  12.4   |
 | Swift |  5.0   |
